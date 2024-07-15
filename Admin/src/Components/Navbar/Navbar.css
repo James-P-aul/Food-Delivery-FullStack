@@ -1,0 +1,17 @@
+.navbar{
+    /* margin: 20px 0px; */
+    padding: 10px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid grey;
+}
+
+.left .logo{
+    /* margin: 0px 50px; */
+    width: max(2vw,150px);
+}
+
+.right .profile-icon{
+    width: 50px;
+}

@@ -8,7 +8,7 @@ const StoreContextProvider = (props) => {
   const [food_list, setFoodList] = useState([]);
   const [cartItems, setcartItems] = useState({});
   const [token, setToken] = useState("");
-  const url = "http://localhost:8000";
+  const url = "https://food-del-backend-ggjj.onrender.com";
 
   const fetchFoodItems = async () => {
     try {

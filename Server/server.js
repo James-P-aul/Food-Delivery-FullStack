@@ -11,7 +11,8 @@ import OrderRouter from "./routes/OrderRouter.js";
 const app = express();
 await mongoose
   .connect(
-    ""
+    process.env.MONGO_CONNECTION;
+
   )
   .then(() => {
     console.log("Connected to DB");

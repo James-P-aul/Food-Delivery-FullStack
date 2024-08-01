@@ -11,7 +11,7 @@ import OrderRouter from "./routes/OrderRouter.js";
 const app = express();
 await mongoose
   .connect(
-    "mongodb+srv://joyjoypaul1:gUPEoHY4XZJ6M89T@cluster0.xx1fbgc.mongodb.net/FoodDel"
+    ""
   )
   .then(() => {
     console.log("Connected to DB");
